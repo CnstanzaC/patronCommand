@@ -26,7 +26,7 @@ class Carrito {
   public mostrarPedido(): void {
     console.log("\n Detalle del pedido ");
     if (this.Productos.length === 0) {
-      console.log("No hay productos agregados a su pedido");
+      console.log("No hay productos agregados a su carrito");
       return; // actúa como un break de js
     } else {
       this.Productos.forEach((p) => console.log(`${p.nombre} $${p.precio}`));
